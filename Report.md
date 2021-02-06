@@ -138,6 +138,7 @@ https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 Классифицировать price_range.
 
 ### Визуализация
+
 Распределение по кластерам.
 ![](https://github.com/ZhukovMA/ML1/blob/master/Mobile/Mobile2.png)
 
