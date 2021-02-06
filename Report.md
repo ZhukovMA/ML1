@@ -82,7 +82,7 @@ https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 - столбцов: 21
 
 Распределение призаков с числовыми полями
-![](https://github.com/ZhukovMA/ML1/blob/master/Melbourn/melbourn1.png)
+![вввввв](https://github.com/ZhukovMA/ML1/blob/master/Melbourn/melbourn1.png)
 
 ## Решаемая задача
 - Предсказание признака Price.
@@ -97,4 +97,4 @@ https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 
 ##Визуализация
 
-![Зависимость главного значения от всех числовых](https://github.com/ZhukovMA/ML1/blob/master/Melbourn/melbourn2.png)
+![ввввв](https://github.com/ZhukovMA/ML1/blob/master/Melbourn/melbourn2.png)
