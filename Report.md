@@ -17,8 +17,7 @@
 https://www.kaggle.com/iabhishekofficial/mobile-price-classification 
 
 
-
-**Первый датасет**
+## Первый датасет
 
  *Описание входных данных*
 
@@ -84,8 +83,9 @@ https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 Распределение призаков с числовыми полями
 ![вввввв](https://github.com/ZhukovMA/ML1/blob/master/Melbourn/melbourn1.png)
 
-## Решаемая задача
+### Решаемая задача
 - Предсказание признака Price.
+
 Изначальные признаки выбранные для решения задачи:
 - Suburb, Address, Type, Method, SellerG, CouncilArea, Regionname, Rooms, Distance, Postcode, Bedroom2, Bathroom, Car, Landsize, BuildingArea, YearBuilt, Lattitude, Longtitude, Propertycount.
 
@@ -95,6 +95,54 @@ https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 
 Пропущенные данные заполнялись на основе средних значений, а в случае категориальных признаков – как самый популярный.
 
-##Визуализация
+### Визуализация
 
+Зависимость главного значения от всех числовых
 ![ввввв](https://github.com/ZhukovMA/ML1/blob/master/Melbourn/melbourn2.png)
+
+## Второй датасет
+
+Описание входных данных
+• id – id
+• battery_power – Емкость батареи в МАЧ
+• blue – Наличие bluetooth
+• clock_speed - скорость, с которой микропроцессор выполняет инструкции
+• dual_sim – Поддержка 2 симкарт
+• fc – Разрещение фронтальной камеры в мегапикселях
+• four_g – Наличие 4gg
+• int_memory – Емкость памяти в гб
+• m_dep – Глубина в см
+• mobile_wt – Вес в гр
+• n_cores – Количество ядер
+• pc – Разрешение главной камеры в мегапикселях
+• ram – ОЗУ в мб
+• sc_h – Высота экрана в см
+• sc_w – Ширина экрана в см
+• talk_time – Время в режиме разговора
+• three_g – Наличие 3g
+• touch_screen – Наличие тачскрина
+• wifi – Наличие wifi
+• price_range – К какой ценовой категории относится (0, 1, 2 ,3)
+Анализ данных
+Типы признаков
+• Все признаки количественные
+• Бинарные: blue, dual_sim, four_g, three_g, touch_screen, wifi • Иследуемое значение: price_range
+Размер
+• Строк: 2000
+• Столбцов: 21
+
+Распределение призаков с числовыми полями
+![ввввв](https://github.com/ZhukovMA/ML1/blob/master/Mobile/Mobile1.png)
+
+### Решаемая задача
+Классифицировать price_range.
+
+### Визуализация
+Распределение по кластерам.
+![](https://github.com/ZhukovMA/ML1/blob/master/Mobile/Mobile2.png)
+
+С помощью алгортима TSNE было визуализированно распределение по 4g кластерам.
+![](https://github.com/ZhukovMA/ML1/blob/master/Mobile/Mobile3.png)
+
+### Вывод
+В ходе лабораторной работы были проанализированы два датасета. Для каждого из них были подготовлены для поставленной задачи данные. Также было показано, как распределение признака, который предстоит исследовать, так и его зависимость от других признаков.
