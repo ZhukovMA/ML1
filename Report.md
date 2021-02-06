@@ -140,6 +140,7 @@ https://www.kaggle.com/iabhishekofficial/mobile-price-classification
 ### Визуализация
 
 Распределение по кластерам.
+
 ![](https://github.com/ZhukovMA/ML1/blob/master/Mobile/Mobile2.png)
 
 С помощью алгортима TSNE было визуализированно распределение по 4g кластерам.
